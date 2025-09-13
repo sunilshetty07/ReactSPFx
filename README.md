@@ -1,10 +1,8 @@
 # react-sp-fx
 
 ## Summary
-
-Short summary on functionality and used technologies.
-
-[picture of the solution in action, if possible]
+for more information refer the below URL.
+https://mspowerplatformtips.blogspot.com/2025/09/getting-started-with-react-spfx-crud.html
 
 ## Used SharePoint Framework Version
 
