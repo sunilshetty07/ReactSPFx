@@ -85,3 +85,4 @@ This extension illustrates the following concepts:
 
 #SPFx webpart
 CRUD operations with search list items
+![alt text](image.png)
