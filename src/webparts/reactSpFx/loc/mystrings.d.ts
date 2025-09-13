@@ -1,0 +1,19 @@
+declare interface IReactSpFxWebPartStrings {
+  PropertyPaneDescription: string;
+  BasicGroupName: string;
+  DescriptionFieldLabel: string;
+  AppLocalEnvironmentSharePoint: string;
+  AppLocalEnvironmentTeams: string;
+  AppLocalEnvironmentOffice: string;
+  AppLocalEnvironmentOutlook: string;
+  AppSharePointEnvironment: string;
+  AppTeamsTabEnvironment: string;
+  AppOfficeEnvironment: string;
+  AppOutlookEnvironment: string;
+  UnknownEnvironment: string;
+}
+
+declare module 'ReactSpFxWebPartStrings' {
+  const strings: IReactSpFxWebPartStrings;
+  export = strings;
+}

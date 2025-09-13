@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "df508bc6-1552-4f9c-8263-62f0b8f612c4",
+  "alias": "ReactSpFxWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
+    "group": { "default": "Advanced" },
+    "title": { "default": "ReactSPFx" },
+    "description": { "default": "ReactSPFx description" },
+    "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABUklEQVQ4T6XTvUtCURTH8Y9LSi1mTRQUaDAxqIgIF2thSk0QiFYKFYqEUr0C3cE/YKCYULcQSQqGEXcRs9i6kFKm0Xy3xz7X2zud87J9z7nPfYZ88YbTXzCfwzjRtxj6JGugDboAJfgpYogxk5wrRBO0wzq4DW8wp7KBkkwWcMnmJfjRuwD6vVQDy6jmV0YxgyO8THa0xp9jYEVuAB/0zGsAevH6lDwYkPgq4ApMghLIVdLvgUMyDqoaW9wTceyzL+vE0zATxg/2p4YNLAVcXrmQj6D8qhzWdOdgA7+FglqOiqgMn+Vm04j9xRj34DjydkxvUOLVVxA5dChqO0UKYJ0svmB+Yip3XStmE51IP8Cu8CCvhnV3ZHgAAAABJRU5ErkJggg==",
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "ReactSPFx"
+    }
+  }]
+}
