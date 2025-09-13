@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-sp-fx-client-side-solution",
+    "id": "abe6a3ce-7d71-4c61-a610-0f3ec3765cae",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Sunil",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-sp-fx description"
+      },
+      "longDescription": {
+        "default": "react-sp-fx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-sp-fx Feature",
+        "description": "The feature that activates elements of the react-sp-fx solution.",
+        "id": "18785ffc-4414-4e05-9941-fc38b631e6db",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-sp-fx.sppkg"
+  }
+}
