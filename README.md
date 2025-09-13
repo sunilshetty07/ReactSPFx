@@ -20,6 +20,15 @@ Short summary on functionality and used technologies.
 ## Prerequisites
 
 > Any special pre-requisites?
+React – Front-end framework for building UI
+
+Fluent UI (@fluentui/react) – Microsoft-styled UI components (DetailsList, TextField, Buttons, etc.)
+
+Reactstrap (reactstrap) + Bootstrap (bootstrap) – Layout and responsive grid (Row/Col)
+
+PnPjs (@pnp/sp, @pnp/common, @pnp/logging, @pnp/odata) – CRUD operations and list data handling in SharePoint
+
+SPFx React Controls (@pnp/spfx-controls-react) – Property pane controls like list dropdown
 
 ## Solution
 
